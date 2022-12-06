@@ -1,0 +1,138 @@
+/* 
+Dark Grey: #393939 – Dark designs take a little bit more fore-thought but can provide tons of contrast if used well. 
+
+Deep Orange: #FF5A09 – With different shades of oranges, there is depth and gradient, without venturing into totally new colors. 
+
+Light Orange: #ec7f37 – Utilizing illustrative elements, requires a bit of flexibility for the natural lightness and darkness to contour objects. 
+
+Orange Yellow: #be4f0c – Using on color over on the color wheel can keep the palette looking classy, bold, and restrained.
+ */
+
+
+body {
+   font-size: 16px;
+   padding: 0;
+   margin-left: 15px;
+   background-color: #393939;
+   color: white;
+}
+
+.custom_header{
+    background-color: #eeeeee;
+    height: 60px;
+}
+
+#title_section {
+    margin-top: 130px;
+}
+
+#title_section strong{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.message_section {
+    background-color: #454545;
+    width: 330px;
+    margin-top: 40px;
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.custom_input {
+    
+    margin-top: 20px;
+    size: 100px;
+    height: 40px;
+    width: 350px;
+    
+    border-radius: 10px;
+    
+    /*
+    border: 2;
+    border-color: #00000030;
+    */
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #505050;
+    border: none;
+    outline: none;
+}
+
+.success_input{
+    border: 2px solid white;
+}
+
+.wrong_input{
+    border: 2px solid #ff5e00;
+}
+
+.custom_checkbox{
+    margin-top: 20px;
+    background: #FFF;
+}
+
+.custom_ref {
+    color: white;
+    padding-top: 35px;
+    color: white;
+   }
+
+.custom_but {
+    width: 200px;
+    height: 40px;
+    background-color: #303030;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #ff5e00;
+    border: 2px solid #FF5A09;
+    }
+    
+.custom_mikrobut{
+    width: 80px;
+    height: 20px;
+    background-color: #393939;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #ff5e00;
+    border: 1.5px solid white;
+    font-size: 12px;
+}
+    
+.custom_but:active{
+    background-color: #ff5e00;
+    color: white;
+}
+    
+.annotation{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.warning_message{
+    display: none;
+    color: #ff5e00;
+}
+
+.to-center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.to-right{
+    position: relative;
+}
+
+.to-center-v2{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.to-right-v2{
+    margin: auto;
+    text-align: right;
+    }

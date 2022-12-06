@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main_container">
+        
+        <section id="title_section">
+            <strong>Войти</strong><br>
+            Введите свои данные ниже
+        </section>
+        
+        <div class="message_section">
+            Use the login: test_user@gmail.com<br>
+            Password: test_user
+        </div>
+        
+        
+            <input id="my_login" class="custom_input" placeholder="Login"><br>
+            <div class="warning_message">
+                Wrong login
+            </div>
+            
+            <input id="my_password" type="password" class="custom_input" placeholder="Password"><br>
+            <div class="warning_message">
+                Wrong password
+            </div>
+            
+            <input id="my_cb" type="checkbox" class="custom_checkbox">
+            <label for="my_cb">Запомнить меня</label>
+            
+            <a class="custom_ref to-right-v2" href="pass_recover.html">Забыли пароль?</a><br>
+            
+            <button id="my_submit_but" onclick="validate_form()" class="custom_but to-center">Войти</button>
+            
+            <p>Нет учетной записи? <a class="custom_ref" href="registration.html">Зарегестрируйся</a></p>     
+        
+        
+    </div>
+</body>
+</html>
